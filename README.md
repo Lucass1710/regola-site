@@ -8,3 +8,5 @@ Maquette (prototype non officiel) du site Regola Bikes : 5 pages statiques en HT
 En ligne : https://regola-prototipo.ls-ac3.workers.dev
 
 Publication : chaque envoi sur la branche `main` est déployé automatiquement par Cloudflare (Workers Builds, voir `wrangler.jsonc`). Les fichiers listés dans `.assetsignore` ne sont pas publiés.
+
+Déploiement automatique Cloudflare relié le 25/11/2026.
