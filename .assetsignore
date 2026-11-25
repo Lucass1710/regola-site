@@ -1,0 +1,14 @@
+# Fichiers du dépôt à NE PAS publier sur le site
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+README.md
+.claude
+.DS_Store
+captures-mobile
+*.zip
+assets/logo.jpg
+assets/logo-mark.png
+assets/logo-word.png
+assets/logo-full.png

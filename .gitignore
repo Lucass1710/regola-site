@@ -1,0 +1,7 @@
+# fichiers système et locaux
+.DS_Store
+.claude/
+
+# livrables générés (refaits à la demande)
+Regola-maquette.zip
+captures-mobile/

@@ -1,0 +1,10 @@
+// Configuration Cloudflare : site statique servi par le Worker "regola-prototipo".
+// Cloudflare relance « npx wrangler deploy » à chaque envoi sur GitHub.
+{
+  "name": "regola-prototipo",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash"
+  }
+}

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Atelier couleur — Regola</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Michroma&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=6">
+</head>
+<body class="inner">
+<script>document.documentElement.classList.add('js')</script>
+
+<header id="hdr">
+  <nav><ul><li><a href="atelier.html" class="active">Atelier couleur</a></li><li><a href="modeles.html">Modèles</a></li><li><a href="peinture.html">Peinture</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  <a href="index.html" class="logo" aria-label="Regola — accueil"><img class="lm" src="assets/logo-mark-solid.png" alt=""><img class="lw" src="assets/logo-word-solid.png" alt="Regola"></a>
+  <div class="hact"><a href="atelier.html" class="nav-cta">Configurer</a><button class="burger" aria-label="Menu"><span></span><span></span></button></div>
+</header>
+
+<section class="atelier first" id="atelier">
+  <div class="head">
+    <div>
+      <div class="eyebrow rv">L'atelier couleur</div>
+      <h2 class="display rv d1">Dessinez votre<br><em>Regola.</em></h2>
+    </div>
+    <p class="rv d2">Modèle, motif, couleurs, finition, signature. Composez votre cadre en quelques gestes — nos peintres le réaliseront à la main, exactement comme vous l'imaginez.</p>
+  </div>
+
+  <div class="cfg">
+    <!-- Stage -->
+    <div class="stage rv">
+      <div class="stage-top"><b id="stModel">C01</b><span id="stType">Route · Course</span></div>
+      <svg id="bike" viewBox="62 100 876 515" aria-label="Aperçu du vélo personnalisé">
+        <defs>
+          <path id="p-tt" d="M408 196 L690 186"/>
+          <path id="p-ht" d="M688 176 L705 262"/>
+          <path id="p-dt" d="M455 447 L702 252"/>
+          <path id="p-st" d="M455 447 L403 178"/>
+          <path id="p-cs" d="M455 447 L240 432"/>
+          <path id="p-ss" d="M416 252 L240 432"/>
+          <path id="p-fk" d="M704 258 Q 736 344 760 432"/>
+          <path id="rimTxtR" d="M240 432 m -136 0 a 136 136 0 1 1 272 0 a 136 136 0 1 1 -272 0"/>
+          <path id="rimTxtF" d="M760 432 m -136 0 a 136 136 0 1 1 272 0 a 136 136 0 1 1 -272 0"/>
+          <linearGradient id="gFade" gradientUnits="userSpaceOnUse" x1="250" y1="440" x2="720" y2="180">
+            <stop id="gf1" offset="0.1"/><stop id="gf2" offset="0.9"/>
+          </linearGradient>
+          <pattern id="gChk" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
+            <rect id="ck1" width="14" height="14"/><rect id="ck2" width="7" height="7"/><rect id="ck3" x="7" y="7" width="7" height="7"/>
+          </pattern>
+          <linearGradient id="gIris" gradientUnits="userSpaceOnUse" x1="240" y1="430" x2="760" y2="180">
+            <stop offset="0" stop-color="#ff5f8a"/><stop offset=".25" stop-color="#ffd36b"/><stop offset=".5" stop-color="#6bffb8"/><stop offset=".75" stop-color="#6bb8ff"/><stop offset="1" stop-color="#c06bff"/>
+          </linearGradient>
+          <linearGradient id="gSheen" gradientUnits="userSpaceOnUse" x1="240" y1="180" x2="760" y2="440">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".35" stop-color="#fff" stop-opacity=".55"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+          <filter id="fMarble" x="-10%" y="-10%" width="120%" height="120%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.022 0.05" numOctaves="4" seed="11" result="n"/>
+            <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  9 0 0 0 -4.6" result="m"/>
+            <feFlood id="marbleCol" flood-color="#000" result="c"/>
+            <feComposite in="c" in2="m" operator="in" result="v"/>
+            <feComposite in="v" in2="SourceAlpha" operator="in" result="v2"/>
+            <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="v2"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- wheels -->
+        <g id="wheels"></g>
+
+        <!-- drivetrain -->
+        <g stroke="#2a2a2a" fill="none" stroke-linecap="round">
+          <path d="M455 400 L240 410 M455 494 L240 454" stroke-width="3" stroke="#555"/>
+          <circle cx="240" cy="432" r="22" stroke-width="6" stroke="#6d6d6d"/>
+          <path d="M240 432 L262 486 L250 500" stroke-width="6" stroke="#333"/>
+        </g>
+
+        <!-- seatpost & saddle -->
+        <path d="M403 180 L394 134" stroke="#151515" stroke-width="13" stroke-linecap="round"/>
+        <path d="M342 128 Q 392 114 448 124 Q 446 134 440 134 Q 392 128 350 138 Q 338 136 342 128Z" fill="#111"/>
+
+        <!-- cockpit -->
+        <g stroke="#141414" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M690 178 L748 166" stroke-width="13"/>
+          <path d="M748 166 C 784 164 790 186 782 212 C 775 236 754 240 744 226" stroke-width="9"/>
+          <path d="M752 168 L776 172 L784 192" stroke-width="12"/>
+        </g>
+
+        <!-- FRAME -->
+        <g id="frame" stroke-linecap="round" fill="none">
+          <use href="#p-ss" class="t rear" data-k="ss"/>
+          <use href="#p-cs" class="t rear" data-k="cs"/>
+          <use href="#p-fk" class="t front" data-k="fk"/>
+          <use href="#p-st" class="t front" data-k="st"/>
+          <use href="#p-dt" class="t front" data-k="dt"/>
+          <use href="#p-tt" class="t front" data-k="tt"/>
+          <use href="#p-ht" class="t front" data-k="ht"/>
+        </g>
+        <!-- finish overlays -->
+        <g id="overlay" stroke-linecap="round" fill="none" style="mix-blend-mode:soft-light">
+          <use href="#p-ss" data-k="ss"/><use href="#p-cs" data-k="cs"/><use href="#p-fk" data-k="fk"/><use href="#p-st" data-k="st"/><use href="#p-dt" data-k="dt"/><use href="#p-tt" data-k="tt"/><use href="#p-ht" data-k="ht"/>
+        </g>
+        <g id="gloss" stroke="#fff" stroke-linecap="round" fill="none" transform="translate(-2,-6.5)">
+          <use href="#p-tt" stroke-width="2.4"/><use href="#p-dt" stroke-width="3.6"/><use href="#p-st" stroke-width="2.4"/><use href="#p-ss" stroke-width="2"/><use href="#p-fk" stroke-width="2"/><use href="#p-ht" stroke-width="2.6"/>
+        </g>
+
+        <g id="tricolore"></g>
+
+        <!-- crank -->
+        <g>
+          <circle cx="455" cy="447" r="46" fill="none" stroke="#1d1d1d" stroke-width="7"/>
+          <circle cx="455" cy="447" r="14" fill="#2b2b2b"/>
+          <path d="M455 447 L484 512" stroke="#181818" stroke-width="11" stroke-linecap="round"/>
+          <rect x="470" y="508" width="32" height="8" rx="3" fill="#222"/>
+        </g>
+
+        <!-- decals -->
+        <text id="logoTxt" font-family="Michroma, sans-serif" font-size="15" letter-spacing="7" dominant-baseline="central"><textPath href="#p-dt" startOffset="55%" text-anchor="middle">REGOLA</textPath></text>
+        <text id="nameTxt" font-family="Inter Tight, sans-serif" font-weight="600" font-size="11" dominant-baseline="central"><textPath href="#p-tt" startOffset="58%" text-anchor="middle"></textPath></text>
+        <rect id="badge" x="691" y="204" width="10" height="20" rx="1.5" transform="rotate(-11 696 214)"/>
+      </svg>
+      <div class="floor"></div>
+      <div class="stage-foot">
+        <span id="stLine">Uni · Brillant</span>
+        <div class="chips"><i class="chip" id="c1"></i><i class="chip" id="c2"></i><i class="chip" id="c3"></i></div>
+      </div>
+    </div>
+
+    <!-- Panel -->
+    <div class="panel rv d1">
+      <div class="step">
+        <h4><i>00</i>Inspirations de l'atelier</h4>
+        <div class="presets" id="presets"></div>
+      </div>
+      <div class="step">
+        <h4><i>01</i>Modèle</h4>
+        <div class="seg" id="segModel"></div>
+      </div>
+      <div class="step">
+        <h4><i>02</i>Motif</h4>
+        <div class="seg" id="segMotif"></div>
+      </div>
+      <div class="step">
+        <h4><i>03</i>Couleurs</h4>
+        <div class="tabs" id="tabs"></div>
+        <div class="swatches" id="swatches"></div>
+        <div class="swname" id="swname"></div>
+      </div>
+      <div class="step">
+        <h4><i>04</i>Finition</h4>
+        <div class="seg" id="segFinish"></div>
+      </div>
+      <div class="step">
+        <h4><i>05</i>Fascia tricolore <span class="flag" aria-hidden="true"><i></i><i></i><i></i></span></h4>
+        <div class="seg" id="segTri"></div>
+      </div>
+      <div class="step">
+        <h4><i>06</i>Signature sur le tube</h4>
+        <input class="field" id="name" maxlength="18" placeholder="Votre nom, une devise…">
+      </div>
+      <div class="summary">
+        <div class="eyebrow">Votre Regola</div>
+        <p id="sum"></p>
+        <a class="btn solid" id="quote" href="#">Recevoir mon devis <span class="arr">→</span></a>
+        <small>Devis sur mesure · le prix dépend du montage et des composants choisis.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="fcol flogo"><a href="index.html" class="logo"><img class="lf" src="assets/logo-full-solid.png" alt="Regola"></a></div>
+  <div class="fcol"><h6>Italie · Atelier</h6><p>Atelier della Bici<br>Frabosa Sottana (CN)</p></div>
+  <div class="fcol"><h6>France · Agent</h6><p>Regola in France<br>Draguignan</p></div>
+  <div class="fcol"><h6>Contact</h6><p><a href="mailto:info@regolabikes.com">info@regolabikes.com</a></p>
+    <div class="soc"><a href="https://www.instagram.com/regolabikes/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/profile.php?id=100064349041571" target="_blank" rel="noopener">Facebook</a></div></div>
+  <div class="fbot"><span>Fatte per chi non vuole omologarsi · Maquette 2026</span><span class="seal"><span class="flag" aria-hidden="true"><i></i><i></i><i></i></span>Fatto a mano in Piemonte</span></div>
+</footer>
+<script src="assets/i18n.js?v=7"></script>
+<script src="assets/site.js?v=6"></script>
+<script src="assets/atelier.js?v=5"></script>
+</body>
+</html>
